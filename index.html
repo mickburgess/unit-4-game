@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Crystals Collector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+</head>
+<body>
+  <!--Div for title-->
+  <div id="title">
+    <h1>Crystals Collector!</h1>
+  </div>
+  <!--Div for instructions-->
+  <div id="instructions">
+    <p>You will be given a random number at the start of the game.</p>
+    <br>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <br>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <br>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <br>
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
+  <!--Div that contains a random number-->
+  <div id="random-number"></div>
+  <!--Div that contains win/lose counter and messaging-->
+  <div id="win-loss">
+    <!--p for win/lose messaging-->
+    <p id="win-loss-messaging"></p>
+    <!--p for win counter-->
+    <p id="wins"></p>
+    <!--p for loss counter-->
+    <p id="loss"></p>
+  </div>
+  <!--4 Divs each with a crystal image as a button-->
+  <div>
+    <div id="ruby">
+      <button>
+        <img src="assets/images/red_crystal.jpg" alt="Red_crystal">
+      </button>
+    </div>
+    <div id="sapphire">
+      <button>
+        <img src="assets/images/sapphire.png" alt="Sapphire">
+      </button>
+    </div>
+    <div id="diamond">
+      <button>
+        <img src="assets/images/diamond.png" alt="Diamond">
+      </button>
+    </div>
+    <div id="emerald">
+      <button>
+        <img src="assets/images/emerald.png" alt="Emerald">
+      </button>
+    </div>
+  </div>
+  <!--Div for current score wording-->
+  <div id="current-score-wording">
+    <h4>Your total score is:</h4>
+  </div>
+  <!--Div that contains the player's current score-->
+  <div id="current-score>"></div>
+  <script src="assets/javascript/game.js"></script>
+</body>
+</html>

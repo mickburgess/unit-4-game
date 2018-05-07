@@ -1,0 +1,73 @@
+body {
+  background: url(../images/background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: darkslategray;
+}
+
+#title {
+  background: #cc5500;
+  color: #ffffff;
+  padding: 20px 5px;
+  display: inline-block;
+  margin: 10px 0px 10px 10px;
+  font-weight: bold; font-size: 2em;
+}
+
+#instructions {
+  background: #ffe4b5;
+  color: #008000;
+  width: 50%;
+  padding: 1em .5em 5em;
+  font-weight: bold;
+  margin: 0px 0px 10px 10px;
+  line-height: 1.2em;
+}
+
+#random-number {
+  background: #0aa10a;
+  color: purple;
+}
+
+#win-loss {
+  background: #05a8a8;
+  color: #008000;
+}
+
+#current-score {
+  background: #029676;
+}
+
+#gems {
+  margin: 0px 0px 10px 10px;
+}
+
+#ruby,
+#sapphire, 
+#diamond,
+#emerald {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+input {
+  max-height: 100%;
+  max-width: 100%;
+  outline: none;
+  height: 90%;
+  margin-top: 5%;
+}
+
+#emerald-input {
+  max-height: 85%;
+  max-width: 90%;
+}
+
+#current-score-wording {
+  clear: both;
+  color: #ffffff;
+  background: #029676;
+  padding: 2px 30px 2px 2px;
+  display: inline-block;
+}

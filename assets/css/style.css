@@ -8,9 +8,9 @@ body {
 #title {
   background: #cc5500;
   color: #ffffff;
-  padding: 20px 5px;
+  padding: 1.3rem .3rem;
   display: inline-block;
-  margin: 10px 0px 10px 10px;
+  margin: .6rem 0 .6rem .6rem;
   font-weight: bold; font-size: 2em;
 }
 
@@ -18,15 +18,19 @@ body {
   background: #ffe4b5;
   color: #008000;
   width: 50%;
-  padding: 1em .5em 5em;
+  padding: 1rem .5rem 5rem;
   font-weight: bold;
-  margin: 0px 0px 10px 10px;
-  line-height: 1.2em;
+  margin: 0 0 .6rem .6rem;
+  line-height: 1.2rem;
 }
 
 #random-number {
   background: #0aa10a;
   color: purple;
+  padding-bottom: 3.5rem;
+  font-size: 2rem;
+  margin: 0 .6rem .6em .6rem;
+  width: 15%;
 }
 
 #win-loss {
@@ -36,10 +40,13 @@ body {
 
 #current-score {
   background: #029676;
+  padding-bottom: 3.5em;
+  font-size: 2em;
+  
 }
 
 #gems {
-  margin: 0px 0px 10px 10px;
+  margin: 0 0 .6rem .6rem;
 }
 
 #ruby,
@@ -69,5 +76,6 @@ input {
   color: #ffffff;
   background: #029676;
   padding: 2px 30px 2px 2px;
-  display: inline-block;
+  width: 15%;
+  margin: 0 0 1.2rem .6rem;
 }

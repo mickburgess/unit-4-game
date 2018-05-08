@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Crystals Collector</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
   <link rel="icon" href="assets/images/favicon.png">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
@@ -39,16 +41,16 @@
   </div>
   <!--4 Divs each with a crystal image as a button-->
   <div id="gems">
-    <div id="ruby">
+    <div id="ruby" class="gems">
       <input id="ruby-input" type="image" src="assets/images/red_crystal.jpg" alt="Red_crystal">
     </div>
-    <div id="sapphire">
+    <div id="sapphire" class="gems">
       <input id= "sapphire-input"type="image" src="assets/images/sapphire.png" alt="Sapphire">
     </div>
-    <div id="diamond">
+    <div id="diamond" class="gems">
       <input type="image" src="assets/images/diamond.png" alt="Diamond">
     </div>
-    <div id="emerald">
+    <div id="emerald" class="gems">
       <input id="emerald-input" type="image" src="assets/images/emerald.png" alt="Emerald">
     </div>
   </div>
@@ -58,6 +60,8 @@
   </div>
   <!--Div that contains the player's current score-->
   <div id="current-score>"></div>
+  
+  <!--Import Javascript-->
   <script src="assets/javascript/game.js"></script>
 </body>
 </html>

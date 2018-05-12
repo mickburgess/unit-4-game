@@ -31,18 +31,26 @@ body {
   font-size: 2rem;
   margin: 0 .6rem 1rem .6rem;
   width: 15rem;
+  float: left;
 }
 
 #win-loss {
   background: #05a8a8;
   color: #008000;
+  padding: 1rem 1rem 2rem;
+  float: left;
+
+}
+
+#losses {
+  padding-top: .5rem;
 }
 
 #current-score-wording {
   clear: both;
   color: #ffffff;
   background: #029676;
-  padding: .1rem 2rem .1rem .1rem;
+  padding: .2rem 0 .2rem .1rem;
   width: 15rem;
   margin: 0 0 1.2rem .6rem;
 }
@@ -56,6 +64,7 @@ body {
 }
 
 #gems {
+  clear: both;
   margin-left: .6rem;
 }
 

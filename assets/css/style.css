@@ -1,6 +1,6 @@
 body {
   background: url(../images/background.jpg);
-  background-size: 100% 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: darkslategray;
 }
@@ -29,8 +29,8 @@ body {
   color: purple;
   padding-bottom: 3.5rem;
   font-size: 2rem;
-  margin: 0 .6rem .6em .6rem;
-  width: 15%;
+  margin: 0 .6rem 1rem .6rem;
+  width: 15rem;
 }
 
 #win-loss {
@@ -38,44 +38,86 @@ body {
   color: #008000;
 }
 
-#current-score {
-  background: #029676;
-  padding-bottom: 3.5em;
-  font-size: 2em;
-  
-}
-
-#gems {
-  margin: 0 0 .6rem .6rem;
-}
-
-#ruby,
-#sapphire, 
-#diamond,
-#emerald {
-  float: left;
-  height: 100px;
-  width: 100px;
-}
-
-input {
-  max-height: 100%;
-  max-width: 100%;
-  outline: none;
-  height: 90%;
-  margin-top: 5%;
-}
-
-#emerald-input {
-  max-height: 85%;
-  max-width: 90%;
-}
-
 #current-score-wording {
   clear: both;
   color: #ffffff;
   background: #029676;
-  padding: 2px 30px 2px 2px;
-  width: 15%;
+  padding: .1rem 2rem .1rem .1rem;
+  width: 15rem;
   margin: 0 0 1.2rem .6rem;
+}
+
+#current-score {
+  background: #029676;
+  padding-bottom: 3.5rem;
+  font-size: 2rem;
+  width: 15rem;
+  margin-left: .6rem;
+}
+
+#gems {
+  margin-left: .6rem;
+}
+
+input {
+  outline: none;
+}
+
+#ruby-input,
+#sapphire-input,
+#diamond-input {
+  float: left;
+  width: 7rem;
+  height: 5rem;
+  margin: 0 1rem 1rem 0;
+}
+
+#emerald-input {
+  float: left;
+  width: 7rem;
+  height: 4.5rem;
+  padding-bottom: .5rem;
+}
+
+@media (max-width: 550px) {
+  #ruby-input,
+  #sapphire-input,
+  #diamond-input {
+    float: left;
+    width: 7rem;
+    height: 5rem;
+    margin: 0 1rem 1rem .7rem;
+  }
+
+  #current-score {
+    background: #029676;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;
+    width: 94%;
+  }
+  
+  #current-score-wording {
+    clear: both;
+    color: #ffffff;
+    background: #029676;
+    width: 83%;
+  }
+
+  #random-number {
+    background: #0aa10a;
+    color: purple;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;
+    margin: 0 .6rem 1rem .6rem;
+    width: 94%;
+  }
+
+  #instructions {
+    background: #ffe4b5;
+    color: #008000;
+    width: 89%;
+    padding: 1rem .5rem 5rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+  }
 }
